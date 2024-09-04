@@ -1,0 +1,84 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.package
+.packages
+build/
+.pub-cache/
+.pub/
+/.idea/
+ 
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+ 
+# VS Code related
+.vscode/
+*.code-workspace
+ 
+# Android related
+**/android/**/local.properties
+**/android/**/app/*.keystore
+ 
+# iOS related
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/.generated/
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Runner.xcworkspace
+**/ios/Runner.xcworkspace/xcshareddata/
+ 
+# macOS related
+**/macos/Flutter/Flutter.framework
+**/macos/Flutter/Flutter.podspec
+**/macos/Flutter/Generated.xcconfig
+**/macos/.generated/
+**/macos/Pods/
+**/macos/.symlinks/
+**/macos/Flutter/App.framework
+**/macos/Flutter/Flutter.podspec
+**/macos/Runner.xcworkspace
+**/macos/Runner.xcworkspace/xcshareddata/
+*.xcuserstate
+ 
+# Web related
+**/web/.dart_tool/
+**/web/build/
+ 
+# Windows related
+windows/flutter/ephemeral/
+ 
+# Linux related
+linux/flutter/ephemeral/
+ 
+# Generated files
+*.dart.js
+*.dart.js.map
+*.info.json
+*.js
+*.js.map
+ 
+# Obfuscation artifact
+app.*.symbols
+ 
+# macOS system files
+.DS_Store
+ 
+# Google Service Files
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+android/app/build.gradle
+ios/Podfile
+ios/Podfile.lock
+android/build.gradle
+macos/Podfile
+macos/Podfile.lock
+pubspec.lock
+android/gradle.properties
