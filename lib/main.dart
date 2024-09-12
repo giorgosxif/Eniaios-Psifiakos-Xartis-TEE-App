@@ -28,7 +28,6 @@ class _WebViewExampleState extends State<WebViewExample> {
         NavigationDelegate(
           onNavigationRequest: (NavigationRequest request) async {
             if (request.url == 'https://sdigmap-dev.tee.gov.gr/sdmquery/public/') {
-              // Open the URL in the default browser using the new launchUrl method
               Uri url = Uri.parse(request.url);
               await _launchInBrowser(url);
               return NavigationDecision.prevent;
